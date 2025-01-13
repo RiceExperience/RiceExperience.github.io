@@ -3,8 +3,9 @@
 /* --------------------------------------- */
 .nav {
     display: flex;
-    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
-    justify-content: center; /* Center the navigation */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    justify-content: center; /* Center navigation as a whole */
+    align-items: center; /* Ensure vertical alignment */
     padding: 0;
     margin: 0;
   }
@@ -12,22 +13,25 @@
   .nav__items {
     display: flex;
     flex-wrap: wrap; /* Allow items to break into multiple lines */
-    justify-content: center; /* Center the items */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Align items vertically */
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
   .nav__item {
-    margin: 10px; /* Adjust spacing between links */
+    margin: 0 15px; /* Adjust horizontal spacing between links */
   }
   
   .nav__link {
     text-decoration: none;
-    color: white; /* Or whatever color matches your design */
-    font-size: 16px;
+    color: white; /* Ensure consistent color */
+    font-size: 24px;
+    display: inline-block; /* Ensure consistent alignment of text */
+    text-align: center;
   }
-  
+
 @font-face {
     font-family: 'Hk Grotesk';
     font-style: normal;
