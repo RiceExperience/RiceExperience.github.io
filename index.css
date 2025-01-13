@@ -1,7 +1,33 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
-
+.nav {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+    justify-content: center; /* Center the navigation */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav__items {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to break into multiple lines */
+    justify-content: center; /* Center the items */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav__item {
+    margin: 10px; /* Adjust spacing between links */
+  }
+  
+  .nav__link {
+    text-decoration: none;
+    color: white; /* Or whatever color matches your design */
+    font-size: 16px;
+  }
+  
 @font-face {
     font-family: 'Hk Grotesk';
     font-style: normal;
@@ -638,10 +664,4 @@ video {
     padding-left: 0;  /* Adjusts spacing if necessary */
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    width: 100%;
-  }
 /* use this when you need another line
