@@ -27,7 +27,7 @@
   .nav__link {
     text-decoration: none;
     color: white; /* Ensure consistent color */
-    font-size: 24px;
+    font-size: 20px;
     display: inline-block; /* Ensure consistent alignment of text */
     text-align: center;
   }
